@@ -16,6 +16,6 @@ https://chromedriver.storage.googleapis.com/index.html?path=2.43/
 pip install -r requirements.txt
 И после всего этого уже можно запускать тесты:
 
-python3 -m pytest -v --driver Chrome --driver-path /tests/chrome test_selenium_simple.py
+python3 -m pytest -v --driver Chrome --driver-path /tests/chrome test_selenium_simple.p  
 
 Обратите внимание, что в данном случае я положил скачанный на первом шаге дравер для браузера в папку /tests/ - (chrome - это имя бинарного файла). При запуске тестов вам нужно будет указать полный путь до этого драйвера.
